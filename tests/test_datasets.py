@@ -18,7 +18,7 @@ def setup_teardown():
     print(token)
     request_headers = {"Authorization": f"Bearer {token}"}
     base_api_url = "https://api.osf.io/v2/nodes/"
-
+    print('test_2')
     test_node_label = "test_" + "".join(
         random.choice(string.ascii_letters) for i in range(5)
     )
